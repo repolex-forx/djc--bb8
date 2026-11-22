@@ -101,7 +101,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parking_lot-0.12.5/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/70c96d69bfdff4fbf1cf5a770bf5a02b89426ecb/chunk-001.nq.gz",
+      "dep": "dep/70c96d69bfdff4fbf1cf5a770bf5a02b89426ecb.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
