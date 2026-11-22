@@ -34,6 +34,73 @@
       ],
       "ast": [
         "aggregate/ast/70c96d69bfdff4fbf1cf5a770bf5a02b89426ecb/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/70c96d69bfdff4fbf1cf5a770bf5a02b89426ecb.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tokio-postgres",
+          "ecosystem": "CARGO",
+          "version": "0.7.18",
+          "githubOrg": "rust-postgres",
+          "githubRepo": "rust-postgres",
+          "githubUrl": "https://github.com/rust-postgres/rust-postgres",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-postgres-0.7.18/src/config.rs"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.54.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "b53b2001ed2ccfd9b87e32a0c6da1a1eebdc80b8",
+          "githubTag": "tokio-1.54.1",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.54.1/src/task/spawn.rs"
+        },
+        {
+          "packageName": "futures-util",
+          "ecosystem": "CARGO",
+          "version": "0.3.34",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+          "githubTag": "0.3.34",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-util-0.3.34/src/future/future/mod.rs"
+        },
+        {
+          "packageName": "redis",
+          "ecosystem": "CARGO",
+          "version": "1.8.2",
+          "githubOrg": "redis-rs",
+          "githubRepo": "redis-rs",
+          "githubUrl": "https://github.com/redis-rs/redis-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/redis-1.8.2/src/client.rs"
+        },
+        {
+          "packageName": "lock_api",
+          "ecosystem": "CARGO",
+          "version": "0.4.14",
+          "githubOrg": "Amanieu",
+          "githubRepo": "parking_lot",
+          "githubUrl": "https://github.com/Amanieu/parking_lot",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.14/src/mutex.rs"
+        },
+        {
+          "packageName": "parking_lot",
+          "ecosystem": "CARGO",
+          "version": "0.12.5",
+          "githubOrg": "Amanieu",
+          "githubRepo": "parking_lot",
+          "githubUrl": "https://github.com/Amanieu/parking_lot",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parking_lot-0.12.5/src/lib.rs"
+        }
       ]
     }
   ],
